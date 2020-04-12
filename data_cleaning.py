@@ -55,7 +55,7 @@ df.aws.value_counts()
 
 #excel
 df['excel'] = df['Job Description'].apply(lambda x: 1 if 'excel' in x.lower() else 0)
-df.aws.value_counts()
+df.excel.value_counts()
 
 df.columns
 
