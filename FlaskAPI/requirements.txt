@@ -1,0 +1,17 @@
+certifi==2020.4.5.1
+click==7.1.1
+Flask==1.1.2
+itsdangerous==1.1.0
+Jinja2==2.11.2
+joblib==0.14.1
+MarkupSafe==1.1.1
+mkl-service==2.3.0
+numpy==1.18.1
+pandas==1.0.3
+python-dateutil==2.8.1
+pytz==2019.3
+scikit-learn==0.22.2.post1
+scipy==1.4.1
+six==1.14.0
+Werkzeug==1.0.1
+wincertstore==0.2
