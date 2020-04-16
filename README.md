@@ -53,7 +53,7 @@ I looked at the distributions of the data and the value counts for the various c
 ![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/positions_by_state.png "Job Opportunities by State")
 ![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/correlation_visual.png "Correlations")
 
-##Model Building 
+## Model Building 
 
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.   
 
@@ -64,13 +64,13 @@ I tried three different models:
 *	**Lasso Regression** – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
 *	**Random Forest** – Again, with the sparsity associated with the data, I thought that this would be a good fit. 
 
-##Model performance
+## Model performance
 The Random Forest model far outperformed the other approaches on the test and validation sets. 
 *	**Random Forest** : MAE = 11.22
 *	**Linear Regression**: MAE = 18.86
 *	**Ridge Regression**: MAE = 19.67
 
-##Productionization 
+## Productionization 
 In this step, I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial in the reference section above. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary. 
 
 
