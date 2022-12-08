@@ -1,4 +1,4 @@
-certifi==2020.4.5.1
+certifi==2022.12.7
 click==7.1.1
 Flask==1.1.2
 itsdangerous==1.1.0
